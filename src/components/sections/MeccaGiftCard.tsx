@@ -5,12 +5,12 @@ const MeccaGiftCard = () => {
   return (
     <>
       <div className="flex items-center justify-center p-6">
-        <div className="relative w-80 h-[201.5px]">
+        <div className="relative w-[280px] h-[170px] mt-[1rem] m-auto">
           <Image
-            src="/mecca-giftcard.png"
+            src="/giftcard.png"
             alt="Mecca Gift Card"
             fill
-            className="object-contain drop-shadow-2xl"
+            className="drop-shadow-2xl rounded-[1em]"
           />
         </div>
       </div>

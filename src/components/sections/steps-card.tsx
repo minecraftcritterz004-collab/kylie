@@ -19,17 +19,17 @@ const steps = [
   },
   {
     icon: Flower2,
-    text: "Unlock Mecca Rewards",
+    text: 'Unlock Mecca Rewards',
   },
 ];
 
 const StepsCard = () => {
   return (
     <div className="relative rounded-lg mb-2 border border-[#b0171e] shadow-none overflow-hidden">
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/mecca-logo.png')", opacity: 0.1 }}
-        />
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/steps-bg.jpg')", opacity: 0.1 }}
+      />
 
       <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5 !text-base !rounded-none">
         {steps.map((step, index) => {
@@ -41,7 +41,7 @@ const StepsCard = () => {
             >
               <span
                 className="flex-shrink-0 w-4 h-4 text-white rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5"
-                style={{ backgroundColor: '#e19a94' }}
+                style={{ backgroundColor: '#cb5c6e' }}
               >
                 {index + 1}
               </span>

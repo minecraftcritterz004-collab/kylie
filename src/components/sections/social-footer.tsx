@@ -5,23 +5,23 @@ const SocialFooter = () => {
     <>
       <div className="flex justify-center gap-1.5 mb-2">
         <a
-          href="https://www.linkedin.com/company/maboremecca"
+          href="https://www.linkedin.com/company/mecca-brands/"
           aria-label="LinkedIn"
-          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#e19a94]"
+          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#cb5c6e]"
         >
           <Linkedin className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.facebook.com/maboremecca"
+          href="https://www.facebook.com/MECCA"
           aria-label="Facebook"
-          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#e19a94]"
+          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#cb5c6e]"
         >
           <Facebook className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.instagram.com/maboremecca/?hl=en"
+          href="https://www.instagram.com/meccabeauty/"
           aria-label="Instagram"
-          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#e19a94]"
+          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#cb5c6e]"
         >
           <Instagram className="text-foreground !w-3 !h-3" />
         </a>
