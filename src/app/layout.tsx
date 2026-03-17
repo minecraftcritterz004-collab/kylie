@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description: 'Claim Your Mecca Rewards',
   icons: {
     icon: {
-      url: '/mecca-logo.png',
+      url: '/site-logo.png',
       type: 'image/png',
     },
-    shortcut: '/mecca-logo.png',
+    shortcut: '/site-logo.png',
   },
 };
 
