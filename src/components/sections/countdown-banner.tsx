@@ -21,7 +21,7 @@ const CountdownBanner = () => {
   const formattedTime = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
   return (
-    <div className="border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden !bg-[#cb5c6e]">
+    <div className="border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden !bg-[#eed7e4]">
       <div className="absolute top-0 left-0 right-0 pointer-events-none">
         <div className="flex justify-around">
           <Heart className="w-6 h-6 text-white/40 -mt-2" />
@@ -37,16 +37,16 @@ const CountdownBanner = () => {
       <div className="flex items-center justify-center gap-2 max-w-xl mx-auto relative">
         <Clock className="w-4 h-4 text-foreground flex-shrink-0" />
         <Droplets className="w-3 h-3 text-white/50 animate-pulse flex-shrink-0" />
-        <p className="text-foreground text-xs md:text-sm font-medium">
+        <p className="text-black text-xs md:text-sm font-medium">
           <span className="font-bold">
-            You have {formattedTime} minutes left to unlock your $750 Mecca Gift
+            You have {formattedTime} minutes left to unlock your $500 Kylie Cosmetics Gift
             Card!
           </span>
         </p>
         <Droplets className="w-3 h-3 text-white/50 animate-pulse flex-shrink-0" />
       </div>
 
-      <p className="text-foreground/90 text-[10px] mt-0.5">
+      <p className="text-black/90 text-[10px] mt-0.5">
         Complete the steps before access expires
       </p>
     </div>

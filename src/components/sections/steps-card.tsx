@@ -19,16 +19,16 @@ const steps = [
   },
   {
     icon: Flower2,
-    text: 'Unlock Mecca Rewards',
+    text: 'Unlock Kylie Cosmetics Rewards',
   },
 ];
 
 const StepsCard = () => {
   return (
-    <div className="relative rounded-lg mb-2 border border-[#b0171e] shadow-none overflow-hidden">
+    <div className="relative rounded-lg mb-2 border border-[#e8a4ab] shadow-none overflow-hidden">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/steps-bg.jpg')", opacity: 0.1 }}
+        style={{ backgroundImage: "url('/steps-bg.png')", opacity: 0.1 }}
       />
 
       <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5 !text-base !rounded-none">
@@ -41,14 +41,14 @@ const StepsCard = () => {
             >
               <span
                 className="flex-shrink-0 w-4 h-4 text-white rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5"
-                style={{ backgroundColor: '#cb5c6e' }}
+                style={{ backgroundColor: '#966c76' }}
               >
                 {index + 1}
               </span>
               <div className="flex items-center gap-1 flex-1">
                 <span
                   className="flex-shrink-0"
-                  style={{ color: 'hsl(357.25deg 76.88% 39.02%)' }}
+                  style={{ color: '#966c76' }}
                 >
                   <Icon className="w-2.5 h-2.5" />
                 </span>
