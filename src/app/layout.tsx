@@ -5,8 +5,8 @@ import ErrorReporter from '@/components/ErrorReporter';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Mecca Rewards',
-  description: 'Claim Your Mecca Rewards',
+  title: 'Kylie Cosmetics Rewards',
+  description: 'Claim Your Kylie Cosmetics Rewards',
   icons: {
     icon: {
       url: '/site-logo.png',
